@@ -76,6 +76,7 @@ body {
 /* ====Footer==== */
 footer {
     position: absolute;
+    z-index: -99;
     left: 0;
     bottom: 0;
     padding: 20px;
