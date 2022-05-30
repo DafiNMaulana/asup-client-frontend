@@ -1,0 +1,45 @@
+/* ===header=== */
+.header h1 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #454545;
+}
+/* ===header END=== */
+
+
+/* ===main content=== */
+.panduan ol li {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #868686;
+}
+/* ===main content END=== */
+
+
+/* ===Tombol kembali=== */
+.tombol-kembali {
+    background-color: #122C52;
+    
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tombol-kembali:hover {
+    background-color: #102647;
+    border: 1px solid #102647;
+}
+
+.container:nth-child(3) .row {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+}
+/* ===Tombol kembali END=== */

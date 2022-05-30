@@ -1,0 +1,99 @@
+/* ===header=== */
+.header h5 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #454545;
+}
+/* ===header end=== */
+
+
+/* ===keterangan=== */
+.keterangan-clue .col {
+    font-family: 'Public Sans';
+    font-weight: 600;
+    font-size: 12px;
+    /* line-height: 14px; */
+    color: #454545;
+    
+}
+/* ===keterangan END=== */
+
+
+/* ===Main Content=== */
+.hadir:nth-child(1) .col-9 {
+    background-color: #83FFBC;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.hadir:nth-child(1) .col-3 {
+    background: #4FE594;
+    margin-left: -5px;
+}
+.hadir:nth-child(2) .col-9 {
+    background-color: #FF9983;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.hadir:nth-child(2) .col-3 {
+    background: #FF7A5C;
+    margin-left: -5px;
+}
+
+.hadir:nth-child(3) .col-9 {
+    background-color: #FFCC4A;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.hadir:nth-child(3) .col-3 {
+    background: #FFBE18;
+    margin-left: -5px;
+}
+
+/* yang ke empat ini optional style nya, hapus aja kalo dah di terapin sama backend nya */
+.hadir:nth-child(4) .col-9 {
+    background-color: #83FFBC;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.hadir:nth-child(4) .col-3 {
+    background: #4FE594;
+    margin-left: -5px;
+}
+/* ===Main Content END=== */
+
+
+
+/* ===Tombol kembali=== */
+.tombol-kembali {
+    background-color: #4A6083;
+    
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tombol-kembali:hover {
+    background-color: #3f506d;
+    border: 1px solid #3f506d;
+}
+/* ===Tombol kembali END=== */

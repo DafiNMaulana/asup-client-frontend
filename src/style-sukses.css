@@ -1,0 +1,33 @@
+.judul h1 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #122C52;
+}
+
+.pesan-client p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.tombol-kembali {
+    background-color: #122C52;
+    
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tombol-kembali:hover {
+    background-color: #0f2647;
+    border: 1px solid #0f2647;
+}

@@ -1,31 +1,34 @@
-/* ----body---- */
+/* =====body===== */
 body {
     background-color: #5E82B7;
 }
-/* ----body END---- */
+/* =====body END===== */
 
 
 
-/* -----logo asup--- */
+/* ================ */
+/* ====================== Halaman Login ================ */
+
+/* ====logo asup==== */
 .logo-asup {
     font-size: 47px;
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Public Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 40px;
     color: #fff;
 }
-.container .row .col-4 {
+.container .row .col-3 {
     background-color: #122C524F;
     box-shadow: 6px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 0px 0px 20px 20px;
 }
-/* -----logo asup END--- */
+/* ====logo asup END==== */
 
 
 
-/* -----Form login--- */
+/* ====Form login==== */
 .form-login {
     background-color: #122C52;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -34,7 +37,7 @@ body {
 }
 
 .form-login .mb-3 .form-label {
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -43,6 +46,7 @@ body {
 
 .form-login input {
     border-radius: 5px;
+    color: white;
 }
 
 .form-login input:focus {
@@ -60,11 +64,16 @@ body {
     line-height: 16px;
     padding: 12px;
 }
-/* -----Form login END--- */
+
+.d-grid button:focus, .d-grid button:active:focus, .d-grid button.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+/* ====Form login END==== */
 
 
 
-/* -----Footer--- */
+/* ====Footer==== */
 footer {
     position: fixed;
     left: 0;
@@ -73,4 +82,152 @@ footer {
     width: 100%;
     text-align: center;
 }
-/* -----Footer END--- */
+/* ====Footer END==== */
+
+/* ====================== Halaman Login END ================ */
+/* ================ */ 
+
+
+
+/* ================ */ 
+/* ====================== Halaman Home ================ */
+
+/* ====header==== */
+.halo-client {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.barcode-icon img {
+    width: 180px;
+}
+
+.orientasi {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+/* ====header end==== */
+
+
+/* ====fitur==== */
+.absen {
+    background-color: #122C52 !important;
+}
+
+.riwayat {
+    background-color: #E35200 !important;
+}
+
+.absen, .riwayat {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.absen:active, .riwayat:active {
+    box-shadow: none !important;
+}
+
+.absen > img, .riwayat > img {
+    width: 27px;
+}
+/* ====fitur END==== */
+
+
+/* ====tombol keluar==== */
+.tombol-keluar {
+    background-color: #4A6083;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tombol-keluar:hover {
+    background-color: #3f506d;
+    border: 1px solid #3f506d;
+}
+/* ====tombol keluar END==== */
+
+
+/* ====Footer==== */
+.footer-home {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+/* ====Footer END==== */
+/* ====================== Halaman Home END ================ */
+/* ================ */ 
+
+
+
+/* ================ */ 
+/* ====================== Halaman scaner ================ */
+
+.header-scanner p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.scanner-camera .col-7 {
+    height: 200px;
+    background-color: #fff;
+}
+
+/* ====================== Halaman scaner END ================ */
+/* ================ */ 
+
+
+/* ================ */ 
+/* ====================== Halaman code result ================ */
+
+.code-result {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FAE212;
+}
+
+.data-siswa {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffff;
+}
+
+.tombol-hadir {
+    background-color: #122C52;
+    
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tombol-hadir:hover {
+    background-color: #0f2647;
+    border: 1px solid #0f2647;
+}
+
+/* ====================== Halaman code result END ================ */
+/* ================ */ 
