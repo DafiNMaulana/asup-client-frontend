@@ -1,0 +1,76 @@
+/* ----body---- */
+body {
+    background-color: #5E82B7;
+}
+/* ----body END---- */
+
+
+
+/* -----logo asup--- */
+.logo-asup {
+    font-size: 47px;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color: #fff;
+}
+.container .row .col-4 {
+    background-color: #122C524F;
+    box-shadow: 6px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+}
+/* -----logo asup END--- */
+
+
+
+/* -----Form login--- */
+.form-login {
+    background-color: #122C52;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-login .mb-3 .form-label {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.form-login input {
+    border-radius: 5px;
+}
+
+.form-login input:focus {
+    color: white;
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+
+.d-grid button {
+    color: #122C52;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px;
+}
+/* -----Form login END--- */
+
+
+
+/* -----Footer--- */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+/* -----Footer END--- */
