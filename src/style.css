@@ -73,12 +73,10 @@ body {
 
 
 
-/* ====Footer==== */
+/* ====Footer login==== */
 footer {
-    position: absolute;
+    margin-top: 80px;
     z-index: -99;
-    left: 0;
-    bottom: 0;
     padding: 20px;
     width: 100%;
     text-align: center;
