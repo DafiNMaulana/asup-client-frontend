@@ -10,8 +10,12 @@
     <!-- bootstrap END -->
     
     <!-- Style -->
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style/style.css">
     <!-- Style END -->
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="src/aos/dist/aos.css">
+    <!-- AOS END -->
 
     <!-- Icon -->
     <link rel="stylesheet" href="src/fontawesome/css/all.css">
@@ -23,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
     <!-- font END -->
 </head>
-<body>
+<body style="overflow: hidden;">
 
     <!-- ========== Header =========  -->
     <div class="container">
@@ -54,11 +58,17 @@
     <!-- ========== Fitur =========  -->
     <div class="container">
         <div class="row justify-content-center p-4">
-            <a href="opencame.html" class="col-4 rounded absen text-center pt-3 me-4 text-decoration-none">
+            <a href="opencame.html" 
+            class="col-4 rounded absen text-center pt-3 me-4 text-decoration-none"
+            data-aos="zoom-out-right"
+            data-aos-duration="500">
                 <img src="src/asset/scan-icon.png" alt="scan icon">
                 <p class="text-uppercase text-light pt-2 ">absen</p>
             </a>
-            <a href="riwayat-absen.html" class="col-4 rounded riwayat text-center pt-3 text-decoration-none">
+            <a href="riwayat-absen.html" 
+            class="col-4 rounded riwayat text-center pt-3 text-decoration-none"
+            data-aos="zoom-out-left"
+            data-aos-duration="500">
                 <img src="src/asset/riwayat-icon.png" alt="riwayat icon">
                 <p class="text-uppercase text-light pt-2 ">Riwayat</p>
             </a>
@@ -87,5 +97,12 @@
     <!-- ==========Footer END=========  -->
 
     
+<!-- ===script== -->
+<script src="src/aos/dist/aos.js"></script>
+<script>
+    // AOS
+    AOS.init();
+</script>
+<!-- ===script END== -->
 </body>
 </html>

@@ -10,8 +10,12 @@
     <!-- bootstrap END -->
     
     <!-- Style -->
-    <link rel="stylesheet" href="src/style-panduan.css">
+    <link rel="stylesheet" href="src/style/style-panduan.css">
     <!-- Style END -->
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="src/aos/dist/aos.css">
+    <!-- AOS END -->
 
     <!-- Icon -->
     <link rel="stylesheet" href="src/fontawesome/css/all.css">
@@ -40,12 +44,32 @@
             <div class="col-12">
 
                 <ol>
-                    <li>Pastikan kamu memiliki koneksi internet.</li>
-                    <li class="mt-3">Masuk/Login menggunakan akun kamu.</li>
-                    <li class="mt-3">Pastikan akun kamu sudah sesuai.</li>
-                    <li class="mt-3">Pilih tombol berwarna biru untuk melakukan absensi. </li>
-                    <li class="mt-3">Scan QR Code yang diberikan panitia.</li>
-                    <li class="mt-3">Klik tombol hadir.</li>
+                    <li data-aos="fade-up">Pastikan kamu memiliki koneksi internet.</li>
+                    <li class="mt-3" 
+                    data-aos="fade-up" 
+                    data-aos-delay="200">
+                        Masuk/Login menggunakan akun kamu.
+                    </li>
+                    <li class="mt-3" 
+                    data-aos="fade-up" 
+                    data-aos-delay="300">
+                        Pastikan akun kamu sudah sesuai.
+                    </li>
+                    <li class="mt-3" 
+                    data-aos="fade-up" 
+                    data-aos-delay="400">
+                        Pilih tombol berwarna biru untuk melakukan absensi.
+                    </li>
+                    <li class="mt-3" 
+                    data-aos="fade-up" 
+                    data-aos-delay="500">
+                        Scan QR Code yang diberikan panitia.
+                    </li>
+                    <li class="mt-3" 
+                    data-aos="fade-up" 
+                    data-aos-delay="600">
+                        Klik tombol hadir.
+                    </li>
                 </ol>
                 
             </div>
@@ -65,5 +89,12 @@
     </div>
     <!-- ========== Tombol Kembali END =========  -->
 
+<!-- ===script== -->
+<script src="src/aos/dist/aos.js"></script>
+<script>
+    // AOS
+    AOS.init();
+</script>
+<!-- ===script END== -->
 </body>
 </html>
