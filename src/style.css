@@ -74,8 +74,8 @@ body {
 
 
 /* ====Footer login==== */
-footer {
-    margin-top: 140px;
+.footer-login {
+    margin-top: 160px;
     z-index: -99;
     padding: 20px;
     width: 100%;
@@ -83,7 +83,7 @@ footer {
 }
 
 @media (min-width: 458px) {
-    footer {
+    .footer-login {
         margin-top: 96px;
         z-index: -99;
         padding: 20px;
@@ -175,8 +175,13 @@ footer {
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 /* ====Footer END==== */
+
 /* ====================== Halaman Home END ================ */
 /* ================ */ 
 
